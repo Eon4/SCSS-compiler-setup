@@ -1,3 +1,6 @@
+@use "test";
+
+
 $body-bg-color:#e64448;
 $white:#fff;
 $lightgrey:#e1e2df;
@@ -12,76 +15,7 @@ body {
     margin: auto;
     background-color: $body-bg-color;
   }
-  
   header {
     background-color:$white;
     padding-left: 5px;
   }
-  
-  .logo {
-    width: 80%;
-    padding-top: 10px;
-    padding-bottom: 20px;
-  }
-  
-  .local {
-    display: block;
-    background-color:$body-bg-color;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    .h1 {
-        color: $darkgrey;
-      }
-      
-      .local p {
-        color: $yellow;
-      }
-  }
-  
-
-  
-  .bikes {
-    background-color: $lightgrey;
-    text-align: center;
-  }
-  
-  .signup {
-    display: block;
-    background-color: $lightblue;
-    color: $darkblue;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    h1 {
-        color:$darkgrey;
-      }
-      
-      label {
-        display: block;
-        margin-bottom: 5px;
-      }
-      
-      input {
-        display: block;
-        margin-bottom: 20px;
-      }
-  }
-  
-
-  
-  .about {
-    display: block;
-    background-color: #eab244;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    h1 {
-        color: $body-bg-color;
-      }
-      
-    p {
-        color:$lightgrey;
-      }
-  }
-  
