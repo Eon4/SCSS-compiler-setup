@@ -1,0 +1,20 @@
+@use "test";
+
+$body-bg-color:#e64448;
+$white:#fff;
+$lightgrey:#e1e2df;
+$darkgrey:#3c3a48;
+$yellow:#eab244;
+$lightblue:#89c5c7;
+$darkblue:#0b354b;
+
+
+body {
+    width: 400px;
+    margin: auto;
+    background-color: $body-bg-color;
+  }
+  header {
+    background-color:$white;
+    padding-left: 5px;
+  }
